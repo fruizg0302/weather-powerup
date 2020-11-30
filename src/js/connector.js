@@ -5,9 +5,10 @@ window.TrelloPowerUp.initialize({
     return t.card('all')
     .then(function(card){
       console.log(card)
-      return [{
-        text: card.idShort
-      }];
+      if (card.coordinates){
+        console.log(card.coordinates);
+      }
+      return [];
     });
   }
 });
