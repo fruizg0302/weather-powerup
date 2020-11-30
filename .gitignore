@@ -1,0 +1,12 @@
+#Node std configurations
+node_modules
+build
+npm-debug.log
+.env
+.DS_Store
+
+#ParcelJS
+.cache
+
+#ParcelJS build folder
+dist/
